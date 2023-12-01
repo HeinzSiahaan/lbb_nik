@@ -98,7 +98,7 @@ plot_dept = px.bar(prof_gender_melt.sort_values(by='num_people'),
                    color="gender", 
                    barmode='group',
                    labels = {'num_people' : 'Customer Count',
-                             'Profession' : 'Department',
+                             'Profession' : 'Profession',
                              'gender': 'Gender'}
                              )
  
